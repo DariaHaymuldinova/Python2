@@ -23,6 +23,6 @@
 
 #Программа перемешивания списка
 from random import shuffle
-x = [[i] for i in range(10)]
-shuffle(x)
-print(x)
+list = [[i] for i in range(10)]
+shuffle(list)
+print(list)
